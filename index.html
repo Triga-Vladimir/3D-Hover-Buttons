@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/inx.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="dark-light-container">
+      <div class="white-container">
+        <button class="button"><span>Hover!</span></button>
+      </div>
+      <div class="black-container">
+        <button
+          class="button green"
+          data-filter-color="rgba(71, 255, 111, 0.4)"
+        >
+          <span>🔧 Work</span>
+        </button>
+      </div>
+      <div class="black-container">
+        <button class="button animated" data-filter-color="#00a1ff57">
+          <span>🐭 Mouse Over</span>
+        </button>
+      </div>
+      <div class="white-container">
+        <button
+          class="button purple"
+          data-filter-color="#e347ff8f"
+          data-custom-perspective="900px"
+        >
+          <span>⚙️ Another Example</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
